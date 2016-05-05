@@ -15,7 +15,7 @@ To use the latest release of crawler4j, please use the following snippet in your
     <dependency>
         <groupId>edu.uci.ics</groupId>
         <artifactId>crawler4j</artifactId>
-        <version>4.1</version>
+        <version>4.2</version>
     </dependency>
 ```
 
@@ -175,7 +175,7 @@ crawlConfig.setProxyPort(8080);
 If your proxy also needs authentication:
 ```java
 crawlConfig.setProxyUsername(username);
-crawlConfig.getProxyPassword(password);
+crawlConfig.setProxyPassword(password);
 ```
 
 ### Resumable Crawling
